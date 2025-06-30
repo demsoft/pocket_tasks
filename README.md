@@ -18,7 +18,7 @@ A beautifully designed Flutter task management app with sorting, filtering, ligh
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](screenshots/light_mode.jpeg) | ![Dark](screenshots/dark_mode.jpeg) |
+| ![Light](pocket_tasks/screenshots/light_mode.jpeg) | ![Dark](pocket_tasks/screenshots/dark_mode.jpeg) |
 
 ## 📽️ Demo
 
@@ -27,7 +27,7 @@ A beautifully designed Flutter task management app with sorting, filtering, ligh
 If you have a demo video:
 
 ```html
-<video src="demo.mp4" width="100%" controls></video>
+<video src="/pocket_tasks/demo.mp4" width="100%" controls></video>
 ```
 
 Or link from YouTube or Google Drive:
