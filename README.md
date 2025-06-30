@@ -32,8 +32,7 @@ If you have a demo video:
 
 Or link from YouTube or Google Drive:
 
-- [Watch on YouTube](https://youtu.be/your-video-id)
-- [Download from Google Drive](https://drive.google.com/file/d/your-id/view)
+- [Download from Google Drive](https://drive.google.com/file/d/1U4aJm87b5ZL5J-87VqQtNOP_KtlEDTJt/view?usp=drive_link)
 
 ## 🚀 Getting Started
 
