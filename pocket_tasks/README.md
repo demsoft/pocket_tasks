@@ -1,16 +1,97 @@
-# pocket_tasks
+# 📱 Pocket Tasks
 
-A new Flutter project.
+A beautifully designed Flutter task management app with sorting, filtering, light/dark theme, local storage using Hive, and animations.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 📝 Add, edit, delete tasks
+- 📆 Set due dates
+- ✅ Mark tasks as completed
+- 🔍 Filter by status (All / Active / Completed)
+- 📊 Sort by creation or due date
+- 🌗 Light & dark theme toggle
+- 💾 Local storage with Hive
+- 💡 Riverpod for state management
+- 🎨 Responsive, clean UI
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light](screenshots/light_mode.jpeg) | ![Dark](screenshots/dark_mode.jpeg) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📽️ Demo
+
+<!-- Upload your demo video (e.g., `demo.mp4`) to the repo or a hosting service -->
+
+If you have a demo video:
+
+```html
+<video src="demo.mp4" width="100%" controls></video>
+```
+
+Or link from YouTube or Google Drive:
+
+- [Watch on YouTube](https://youtu.be/your-video-id)
+- [Download from Google Drive](https://drive.google.com/file/d/your-id/view)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Dart SDK
+
+### Run the App
+```bash
+flutter pub get
+flutter run
+```
+
+### Run Tests
+```bash
+flutter test
+```
+
+## 📦 APK Location
+The built APK can be found at:
+```
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+## 📂 Project Structure
+```bash
+lib/
+├── main.dart
+├── features/
+│   └── task/
+│       ├── domain/
+│       ├── provider/
+│       └── presentation/
+│           ├── pages/
+│           └── widgets/
+```
+
+## 📚 Packages Used
+- flutter_riverpod
+- hive & hive_flutter
+- uuid
+- intl
+
+## 🧪 Testing
+Unit and widget tests included in the `test/` directory:
+```
+test/
+├── unit/
+│   └── task_model_test.dart
+├── widget/
+│   ├── add_task_page_test.dart
+│   ├── task_list_filter_test.dart
+│   └── widget_test.dart
+```
+
+## 👨🏽‍💻 Author
+**Etim Essang**  
+Flutter Developer
+
+## 📄 License
+MIT
