@@ -22,15 +22,7 @@ A beautifully designed Flutter task management app with sorting, filtering, ligh
 
 ## 📽️ Demo
 
-<!-- Upload your demo video (e.g., `demo.mp4`) to the repo or a hosting service -->
-
-If you have a demo video:
-
-```html
-<video src="/pocket_tasks/demo.mp4" width="100%" controls></video>
-```
-
-Or link from YouTube or Google Drive:
+Link Google Drive:
 
 - [Download from Google Drive](https://drive.google.com/file/d/1U4aJm87b5ZL5J-87VqQtNOP_KtlEDTJt/view?usp=drive_link)
 
@@ -76,21 +68,10 @@ lib/
 - uuid
 - intl
 
-## 🧪 Testing
-Unit and widget tests included in the `test/` directory:
-```
-test/
-├── unit/
-│   └── task_model_test.dart
-├── widget/
-│   ├── add_task_page_test.dart
-│   ├── task_list_filter_test.dart
-│   └── widget_test.dart
-```
 
-## 👨🏽‍💻 Author
+## 📝 Developer
+
 **Etim Essang**  
-Flutter Developer
-
+Flutter Developer | [LinkedIn](https://www.linkedin.com/in/etim-essang-6bb637a7/) | [GitHub](https://github.com/demsoft)
 ## 📄 License
 MIT

@@ -2,11 +2,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive/hive.dart';
 import 'package:pocket_tasks/features/task/domain/task.dart';
 
-/// Inject the Hive box into the notifier for better testability
 final taskListProvider = StateNotifierProvider<TaskListNotifier, List<Task>>((
   ref,
 ) {
-  final box = Hive.box<Task>('tasksBox'); // This can be overridden in tests
+  final box = Hive.box<Task>('tasksBox');
   return TaskListNotifier(box);
 });
 
@@ -27,7 +26,7 @@ class TaskListNotifier extends StateNotifier<List<Task>> {
   }
 
   void updateTask(Task updatedTask) {
-    box.put(updatedTask.id, updatedTask); // ✅ replaces the task
+    box.put(updatedTask.id, updatedTask);
     loadTasks();
   }
 
@@ -38,7 +37,7 @@ class TaskListNotifier extends StateNotifier<List<Task>> {
 
   void toggleComplete(Task task) {
     task.isCompleted = !task.isCompleted;
-    task.save(); // Hive persists it
+    task.save();
     loadTasks();
   }
 }

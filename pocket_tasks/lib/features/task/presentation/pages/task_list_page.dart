@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:intl/intl.dart';
 import 'package:pocket_tasks/features/task/presentation/pages/add_edit_task_page.dart';
 import 'package:pocket_tasks/features/task/provider/theme_provider.dart';
 import '../../provider/task_provider.dart';
@@ -11,10 +10,8 @@ class TaskListPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final tasks = ref.watch(filteredTasksProvider);
-    final isDark = ref.watch(themeProvider) == ThemeMode.dark;
     final theme = Theme.of(context);
     final colorScheme = theme.colorScheme;
-    final dateFormatter = DateFormat('MMM d, y  h:mm a');
 
     return Scaffold(
       appBar: AppBar(
